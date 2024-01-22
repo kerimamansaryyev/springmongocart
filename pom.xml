@@ -11,8 +11,12 @@
     <groupId>com.example</groupId>
     <artifactId>SpringMongoCart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>SpringMongoCart</name>
     <description>SpringMongoCart</description>
+    <modules>
+        <module>test_client</module>
+    </modules>
     <properties>
         <java.version>17</java.version>
     </properties>
